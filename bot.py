@@ -272,14 +272,15 @@ def format_post(d: dict[str, Any]) -> str:
         if details["version"]:
             lines.append(f"Version : {esc(details['version'])}")
         if lines:
-            parts += ["", "<b>APK Details :</b>", f"<blockquote>{'\n'.join(lines)}</blockquote>"]
+            # Fixed: use blockquote() with joined lines, no backslash inside f-string
+            parts += ["", "<b>APK Details :</b>", blockquote("\n".join(lines))]
 
     features = d["key_features"]
     if not features["omit"]:
         feature_text = "\n".join(
             f"• {esc(feature)}" for feature in features["features"]
         )
-        parts += ["", "<b>𒆜 Key Features:</b>", f"<blockquote>{feature_text}</blockquote>"]
+        parts += ["", "<b>𒆜 Key Features:</b>", blockquote(feature_text)]
 
     download = d["download"]
     if not download["omit"]:
