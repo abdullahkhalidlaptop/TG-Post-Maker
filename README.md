@@ -84,8 +84,8 @@ telegram-post-bot/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/telegram-post-bot.git
-cd telegram-post-bot
+git clone https://github.com/abdullahkhalidlaptop/TG-Post-Maker.git
+cd TG-Post-Maker
 ```
 
 ### 2. Set Up Virtual Environment
@@ -213,10 +213,9 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 ## 💬 Support
 
 - **Documentation**: Check the [README](README.md) and inline comments in `bot.py`.
-- **Issues**: Open a ticket on [GitHub Issues](https://github.com/your-username/telegram-post-bot/issues).
-- **Telegram**: Reach out to the maintainer via [Telegram](https://t.me/yourusername).
+- **Issues**: Open a ticket on [GitHub Issues](https://github.com/abdullahkhalidlaptop/TG-Post-Maker/issues).
+- **Telegram**: Reach out to the maintainer via [Telegram](https://t.me/ak_modz_official).
 
 ---
 
-Made with ❤️ by the community.
-```
+Made with ❤️ by the AKM Community.
