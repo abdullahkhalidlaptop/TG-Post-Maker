@@ -1,9 +1,3 @@
-Here’s the complete **README.md** file content in standard GitHub‑flavored Markdown.  
-Copy this into your `README.md` file – it’s ready to render perfectly on GitHub.
-
----
-
-```markdown
 # 📝 Telegram Post Formatting Engine Bot
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
