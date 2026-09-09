@@ -141,6 +141,18 @@ For production, see the [PM2 section](#-running-with-pm2).
 
 PM2 ensures your bot runs in the background and auto-restarts on crashes or system reboots.
 
+### Install Node Globally
+
+```bash
+curl -fsSL https://nodesource.com | sudo -E bash -
+```
+
+### Install Node.js and npm
+
+```bash
+apt install -y nodejs npm
+```
+
 ### Install PM2 Globally
 
 ```bash
